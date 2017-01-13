@@ -1,4 +1,16 @@
-class StickyNavigation {
+<!DOCTYPE html>
+<!-- All HTML documents begin and end with an "html" tag -->
+<html lang="en">
+
+  <!-- The "header" is the part of your document where you provide the browser with important information like stylesheets you have used -->
+	<head>
+		<title>Hello</title>  <!-- This text shows up on the tab in your browser -->
+		<link 
+	</head>
+
+  <!-- The "body" is the part of your document where you include all content you want to show up in the browser -->
+	<body>
+		class StickyNavigation {
 	
 	constructor() {
 		this.currentId = null;
@@ -73,3 +85,8 @@ class StickyNavigation {
 }
 
 new StickyNavigation();
+	</body>
+   
+</html>
+
+<!-- W3Schools is a helpful resource to refresh your brain:  http://www.w3schools.com/html/html_intro.asp -->
