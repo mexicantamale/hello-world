@@ -1,71 +1,351 @@
+<!DOCTYPE html>
+<!-- All HTML documents begin and end with an "html" tag -->
+<html lang="en">
 
+  <!-- The "header" is the part of your document where you provide the browser with important information like stylesheets you have used -->
+	<head>
+		<title>Hello</title>  <!-- This text shows up on the tab in your browser -->
+		<link 
+	</head>
+
+  <!-- The "body" is the part of your document where you include all content you want to show up in the browser -->
+	<body>
+		<p>hello DVC</p>
+         {
+
+
+
+25
+        text-decoration: none;
+
+
+
+26
+}
+
+
+
+27
+​
+
+
+
+28
+.et-hero-tabs,
+
+
+
+29
+.et-slide {
+
+
+
+30
+    display: flex;
+
+
+
+31
+    flex-direction: column;
+
+
+
+32
+    justify-content: center;
+
+
+
+33
+    align-items: center;
+
+
+
+34
+    height: 100vh;
+
+
+
+35
+    position: relative;
+
+
+
+36
+    background: #eee;
+
+
+
+37
+    h1 {
+
+
+
+38
+        font-size: 3rem;
+
+
+
+39
+        margin: 0;
+
+
+
+40
+        letter-spacing: 1rem;
+
+
+
+41
+    }
+
+
+
+42
+    h3 {
+
+
+
+43
+        font-size: 1rem;
+
+
+
+44
+        letter-spacing: 0.3rem;
+
+
+
+45
+        opacity: 0.6;
+
+
+
+46
+    }
+
+
+
+47
+}
+
+
+
+48
+​
+
+
+
+49
+.et-hero-tabs-container {
+
+
+
+50
+    display: flex;
+
+
+
+51
+    flex-direction: row;
+
+
+
+52
+    position: absolute;
+
+
+
+53
+    bottom: 0;
+
+
+
+54
+    width: 100%;
+
+
+
+55
+    height: 70px;
+
+
+
+56
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+
+
+57
+    background: #fff;
+
+
+
+58
+    z-index: 10;
+
+
+
+59
+    &--top {
+
+
+
+60
+        position: fixed;
+
+
+
+61
+        top: 0;
+
+
+
+62
+    }
+
+
+
+63
+}
+
+
+
+64
+​
+
+
+
+65
+.et-hero-tab {
+
+
+
+66
+    display: flex;
+
+
+
+67
+    justify-content: center;
+
+
+
+68
+    align-items: center;
+
+
+
+69
+    flex: 1;
+
+
+
+70
+    color: #000;
+
+
+
+71
+    letter-spacing: 0.1rem;
+
+
+
+72
+                transition: all 0.5s ease;
+
+
+
+73
+        
+
+
+
+74
+          &:hover {
+
+
+
+75
+                        color:white;
+
+
+
+76
+      background: rgba(102,177,241,0.8);
+
+
+
+77
+                        transition: all 0.5s ease;
+
+
+
+78
+    }
+
+
+
+79
+}
+
+
+
+80
+​
+
+
+
+81
+.et-hero-tab-slider {
+
+
+
+82
+    position: absolute;
+
+
+
+83
+    bottom: 0;
+
+
+
+84
+    width: 0;
+
+
+
+85
+    height: 6px;
+
+
+
+86
+    background: #66B1F1;
+
+
+
+87
+    transition: left 0.3s ease;
+
+
+
+88
+}
+
+
+
+89
+
+
+	</body>
+   
+</html>
+
+<!-- W3Schools is a helpful resource to refresh your brain:  http://www.w3schools.com/html/html_intro.asp -->
 
 <link rel="stylesheet" type="text/css" href="style.css"body {
 		font-family: "Century Gothic", 'Lato', sans-serif;
 }
 
-a {
-	text-decoration: none;
-}
 
-.et-hero-tabs,
-.et-slide {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    position: relative;
-    background: #eee;
-    h1 {
-        font-size: 3rem;
-        margin: 0;
-        letter-spacing: 1rem;
-    }
-    h3 {
-        font-size: 1rem;
-        letter-spacing: 0.3rem;
-        opacity: 0.6;
-    }
-}
-
-.et-hero-tabs-container {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 70px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    background: #fff;
-    z-index: 10;
-    &--top {
-        position: fixed;
-        top: 0;
-    }
-}
-
-.et-hero-tab {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    color: #000;
-    letter-spacing: 0.1rem;
-		transition: all 0.5s ease;
-	
-	  &:hover {
-			color:white;
-      background: rgba(102,177,241,0.8);
-			transition: all 0.5s ease;
-    }
-}
-
-.et-hero-tab-slider {
-    position: absolute;
-    bottom: 0;
-    width: 0;
-    height: 6px;
-    background: #66B1F1;
-    transition: left 0.3s ease;
-}
